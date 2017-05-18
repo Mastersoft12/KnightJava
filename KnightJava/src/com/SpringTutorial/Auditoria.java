@@ -13,7 +13,7 @@ public class Auditoria {
 	
 	@Before("businessService()")
 	public void iniciarCancion(){
-		System.out.println("Inicia la cancion...");
+		System.out.println("Inicia la cancion... ");
 	}
 	
 	@After("businessService()")
